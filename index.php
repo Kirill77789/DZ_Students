@@ -11,8 +11,6 @@ $students= array (
     ),
 );
 
-
-
 foreach ($students as $student) {
     foreach ($student as $data=>$value) {
         echo '<div> Студент '.$value;
@@ -26,7 +24,3 @@ foreach ($students as $student) {
         echo ' имеет '.sizeof($marks).' оценки: '.implode(', ',$marks).'; средний балл- '.$srb.';    </div>';
     };
 };
-
-
-
-?>
